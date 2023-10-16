@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(102, 188, 199);
+}
+header{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    margin-bottom: 50px;
+}
+main{
+    display: block;
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: solid;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+    font-size: larger;
+    margin: 60px;
+}
+.servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.fotos{
+    margin: 2px;
+
+}
+footer.content-block {
+    padding: 60px 0 38px;
+    width: 100%;
+}
+.content-block-dark {
+    background:#222222;
+}
+footer {
+    margin-top: 20px;
+    font-size: larger;
+    font-family: cursive;
+    text-align:center;
+    color: rgb(153,160,162);
+}
+a{
+    text-decoration: none;
+}
